@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 06
+    </title>
+</head>
+
+<body>
+    <h1>Tabela de classificação na Liga de Clãs</h1>
+
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>NickName</th>
+                <th>Vitória</th>
+                <th>Empate</th>
+                <th>Derrota</th>
+                <th>Pontos</th>
+                <th colspan="3">Atualizações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+            <tr>
+                <td>LM1</td>
+                <td>5</td>
+                <td>2</td>
+                <td>0</td>
+                <td>19</td>
+                <td><button onClick="adicionarVitoria()">Vitória</button></td>
+                <td><button onClick="adicionarEmpate()">Empate</button></td>
+                <td><button onClick="adicionarDerrota()">Derrota</button></td>
+            </tr>
+            <tr>
+                <td>RSC</td>
+                <td>5</td>
+                <td>1</td>
+                <td>1</td>
+                <td>18</td>
+                <td><button onClick="adicionarVitoria()">Vitória</button></td>
+                <td><button onClick="adicionarEmpate()">Empate</button></td>
+                <td><button onClick="adicionarDerrota()">Derrota</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
